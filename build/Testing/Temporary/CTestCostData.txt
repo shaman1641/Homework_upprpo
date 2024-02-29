@@ -1,6 +1,0 @@
-SUM.int_double_TEST 1 0.00126563
-MINUS.int_double_TEST 0 0
-MUL.int_double_TEST 0 0
----
-MINUS.int_double_TEST
-MUL.int_double_TEST
