@@ -1,0 +1,7 @@
+add_test( SUM.int_double_TEST /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests/hello_test2 [==[--gtest_filter=SUM.int_double_TEST]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SUM.int_double_TEST PROPERTIES WORKING_DIRECTORY /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( MINUS.int_double_TEST /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests/hello_test2 [==[--gtest_filter=MINUS.int_double_TEST]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MINUS.int_double_TEST PROPERTIES WORKING_DIRECTORY /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( MUL.int_double_TEST /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests/hello_test2 [==[--gtest_filter=MUL.int_double_TEST]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MUL.int_double_TEST PROPERTIES WORKING_DIRECTORY /home/shaman1641/HDD/Github_repository/Homework_upprpo/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( hello_test2_TESTS SUM.int_double_TEST MINUS.int_double_TEST MUL.int_double_TEST)
