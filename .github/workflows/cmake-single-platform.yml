@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Clone_gtest
-      working-directory: ${{github.workspace}}/libaries
+      working-directory: ${{github.workspace}}/libraries
       run: git clone https://github.com/google/googletest
 
     - name: Configure CMake
